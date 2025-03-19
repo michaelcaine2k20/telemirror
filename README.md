@@ -11,8 +11,6 @@
 
 2. Obtain **API_ID** and **API_HASH**
 
-    ![Telegram API Credentials](/README.md-images/telegramapp.png)
-
 3. Get **SESSION_STRING**
 
     **SESSION_STRING** can be obtained by running [login.py](login.py) with provided **API_ID** and **API_HASH** environment variables. ❗ **DON'T USE** your own account.
