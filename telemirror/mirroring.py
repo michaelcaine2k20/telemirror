@@ -627,7 +627,7 @@ class Mirroring:
                 )
 
             self._logger.info(f"Logged in as {utils.get_display_name(me)} ({me.phone})")
-
+            _ = await client.get_dialogs()
             await client.run_until_disconnected()
         except (errors.UserDeactivatedBanError, errors.UserDeactivatedError):
             self._logger.critical(
