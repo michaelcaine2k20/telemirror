@@ -1,0 +1,11 @@
+directions:
+  - from: [-100]
+    to: [-100]
+    filters:
+      - AllowWithKeywordsFilter:
+          keywords: !!set
+            ? r'[(\[](?<![\w\d]).ABC(?![\w\d])[)\]]'
+
+disable_edit: true
+disable_delete: true
+mode: copy
